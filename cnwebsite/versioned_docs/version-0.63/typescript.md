@@ -77,11 +77,11 @@ module.exports = {
 
 > 请保留`./index.js`入口文件，否则将在打包生产版本时遇到问题。
 
-5. 运行 `yarn tsc` 对您的 TypeScript 文件进行类型检查。
+5. 运行 `yarn tsc` 对 TypeScript 文件进行类型检查。
 
 ## TypeScript 和 React Native 是如何工作的
 
-开箱即用，和非 TypeScript 的 React Native 项目一样都是通过 [Babel体系][babel] 将您的文件转换为 JavaScript。我们建议您只用 TypeScript 编译器进行类型检查。如果您有已经存在的 TypeScript 代码需要迁移到 React Native，使用 Babel 而不是 TypeScript的[注意事项][babel-7-caveats]。
+无需额外配置，和非 TypeScript 的 React Native 项目一样都是直接通过 [Babel体系][babel] 将您的文件转换为 JavaScript。我们建议您只使用 TypeScript 编译器的类型检查功能（而不是编译）。如果您有已经存在的 TypeScript 代码需要迁移到 React Native，这里有一些关于使用 Babel 而不是 TypeScript 编译器的[注意事项][babel-7-caveats]。
 
 ## What does React Native + TypeScript look like
 
